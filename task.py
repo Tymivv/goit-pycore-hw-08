@@ -1,7 +1,9 @@
-import pickle
 from collections import UserDict
 from datetime import datetime, timedelta
+import pickle
 
+
+# ===================== STORAGE =====================
 FILENAME = "addressbook.pkl"
 
 
@@ -133,7 +135,6 @@ class AddressBook(UserDict):
                 })
 
         return result
-
 
 
 # ===================== HANDLERS =====================
